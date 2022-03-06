@@ -30,7 +30,7 @@ Familiarise yourself with this convention, particularly if you are currently enr
 You are probably wondering, how do I write a message using this convention. A **Git** commit looks like this:
 
 ```bash
-git commit -m "<type> (optional scope): <subject>" -m "<optional extended description>" -m <optional footer>
+git commit -m "<type> (optional scope): <subject>" -m "<optional extended description>" -m "<optional footer>"
 ```
 
 Let us see this in action!
