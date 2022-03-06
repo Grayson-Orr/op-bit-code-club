@@ -38,13 +38,13 @@ Let us see this in action!
 Here is a Git commit example:
 
 ```bash
-git commit -m "style (login): format jsx”
+git commit -m "style (login): format jsx"
 ```
 
 Here is a Git commit example with an extended description & footer:
 
 ```bash
-git commit -m "style (login): format jsx” -m "additional information" -m "PR Close #12345"
+git commit -m "style (login): format jsx" -m "additional information" -m "PR Close #12345"
 ```
 
 When should I use an extended description? When a message is greater than 50 characters. Note: This convention is recommended by **GitHub**. However, this can vary from company to company.
