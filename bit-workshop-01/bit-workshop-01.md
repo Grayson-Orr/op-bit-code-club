@@ -97,7 +97,9 @@ What is happening?
 You will notice a `.gitmodules` file & `op-bit-workshops-external-code` directory have been created. View the `.gitmodules` file. You see the following:
 
 ```md
-
+[submodule "bit-workshop-01/op-bit-workshops-external-code"]
+	path = bit-workshop-01/op-bit-workshops-external-code
+	url = https://github.com/Grayson-Orr/op-bit-workshops-external-code
 ```
 
 ### GitHub Campus Expert program
