@@ -23,7 +23,7 @@ List of types:
 * style: style-related change, i.e., formatting a file or piece of code.
 * test: an automation test change, i.e., adding a new test file or updating an existing test file.
 
-::question What is a scope? A noun referring to functionality in your codebase, i.e., authentication. 
+What is a scope? A noun referring to functionality in your codebase, i.e., authentication. 
 
 Familiarise yourself with this convention, particularly if you are currently enrolled in my courses. However, if you are not, then it is something you should consider adding to your existing Git skills & knowledge.
 
@@ -64,7 +64,7 @@ git log --oneline | grep style
 Here is a Git example with multiple types:
  
 ```bash
-git log --oneline --grep "^build\|^feat\|^sty”le
+git log --oneline --grep "^build\|^feat\|^style"
 ```
 
 ### Git submodules
