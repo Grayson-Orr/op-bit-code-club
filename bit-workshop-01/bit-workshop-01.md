@@ -55,13 +55,13 @@ What happens if I want view a commit with a specific type or scope?
 git log --oneline | grep <type>
 ```
 
-Here is a Git log example:
+Here is a **Git**  log example:
 
 ```bash
 git log --oneline | grep style
 ```
 
-Here is a Git example with multiple types:
+Here is a **Git**  example with multiple types:
  
 ```bash
 git log --oneline --grep "^build\|^feat\|^style"
