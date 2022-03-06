@@ -49,7 +49,7 @@ git commit -m "style (login): format jsx" -m "additional information" -m "PR Clo
 
 When should I use an extended description? When a message is greater than 50 characters. **Note:** This convention is recommended by **GitHub**. However, this can vary from company to company.
 
-What happens if I want view a commit with a specific type or scope? 
+What happens if I want view a commit with a specific type? 
 
 ```bash
 git log --oneline | grep <type>
