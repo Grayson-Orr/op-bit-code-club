@@ -69,4 +69,35 @@ git log --oneline --grep "^build\|^feat\|^style"
 
 ### Git submodules
 
+You probably have encountered the following:
+
+What is happening? You have a repository with a repository.
+
+**Git submodules** refer to a specified **Git** repository at a particular snapshot, i.e., commit in time. Also, **submodules** enable a host **Git** repository to track the commit history of the specified repository.
+
+Our applications often depend on external code. The code can be implemented in various ways, i.e., copying & pasting into a host **Git** repository or using a package manager, i.e., **Gems**, **NPM** or **Pip**. Both of these approaches have downsides, such as a loss of upstream changes to the specified repository & version management.
+
+**Submodules** do not track **Git** refs & branches. Also, **submodules** do not automatically update when a host **Git** repository is updated.
+
+When should I use **Git submodules**? When you need to maintain a strict version management of your external code's dependencies.
+
+Let us see this in action!
+
+```bash
+cd bit-workshop-01
+git submodule add https://github.com/Grayson-Orr/op-bit-workshops-external-code
+git status
+```
+
+What is happening? 
+- Change directory to `bit-workshop-01`.
+- When the command `git submodule add <url>` is run, **Git** will clone the specified repository as a **submodule**. 
+- View the current state of the host **Git** repository.
+
+You will notice a `.gitmodules` file & `op-bit-workshops-external-code` directory have been created. View the `.gitmodules` file. You see the following:
+
+```md
+
+```
+
 ### GitHub Campus Expert program
