@@ -112,6 +112,13 @@ You will notice a `.gitmodules` file & `op-bit-workshops-external-code` director
 	url = https://github.com/Grayson-Orr/op-bit-workshops-external-code
 ```
 
+Here are some other useful `git submodule` options:
+- Initialise a git submodule - `cd` to the submodule directory, `git submodule init` & `git submodule update --remote`
+- Update a git submodule (in the submodule directory) - `git submodule update --remote`
+- Update all git submodules (in the root directory) - `git submodule update --remote`
+- Remove git submodule - `git rm --cached <submodule name>`, delete the submodule from the `.gitmodules` file, `git submodule deinit <submodule name>`
+- Clone repository with git submodules - `git clone --recursive <https url to repository>`
+
 **Resources:** 
 - <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
 - <https://git-scm.com/docs/git-submodule>
