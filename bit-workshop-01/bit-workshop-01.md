@@ -71,6 +71,8 @@ git log --oneline --grep "^build\|^feat\|^style"
 
 You probably have encountered the following:
 
+<img src="./resources/git-modules.png" />
+
 What is happening? You have a repository with a repository.
 
 **Git submodules** refer to a specified **Git** repository at a particular snapshot, i.e., commit in time. Also, **submodules** enable a host **Git** repository to track the commit history of the specified repository.
