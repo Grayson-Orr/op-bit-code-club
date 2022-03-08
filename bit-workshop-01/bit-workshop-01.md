@@ -117,3 +117,5 @@ You will notice a `.gitmodules` file & `op-bit-workshops-external-code` director
 - <https://git-scm.com/docs/git-submodule>
 
 ### GitHub Campus Expert program
+
+https://education.github.com/experts
