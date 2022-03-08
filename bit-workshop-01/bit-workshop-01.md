@@ -52,13 +52,15 @@ When should I use an extended description? When a message is greater than 50 cha
 What happens if I want view a commit with a specific type? 
 
 ```bash
-git log --oneline | grep <type>
+git log --oneline --grep <type>
 ```
+
+- --oneline - Display the output as one commit per line
 
 Here is a **Git**  log example:
 
 ```bash
-git log --oneline | grep style
+git log --oneline --grep feat
 ```
 
 Here is a **Git**  example with multiple types:
@@ -66,6 +68,8 @@ Here is a **Git**  example with multiple types:
 ```bash
 git log --oneline --grep "^build\|^feat\|^style"
 ```
+
+**Resource:** <https://git-scm.com/docs/git-log>
 
 ### Git submodules
 
