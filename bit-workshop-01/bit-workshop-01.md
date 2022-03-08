@@ -118,4 +118,10 @@ You will notice a `.gitmodules` file & `op-bit-workshops-external-code` director
 
 ### GitHub Campus Expert program
 
-https://education.github.com/experts
+**GH Campus Experts** are learner leaders who have the drive to lead a tech community on their campus. They strive to build a safe, diverse & inclusive space for learners to learn. **GH Campus Experts** work closely with their fellow learners to help create opportunities to learn industry-relevant knowledge & skills.
+
+If you become a **GH Campus Expert**, you will get support & training from **GitHub** & build a network with other **GH Campus Experts** around the world.
+
+For more information, please view the resource below.
+
+**Resource:** <https://education.github.com/experts>
