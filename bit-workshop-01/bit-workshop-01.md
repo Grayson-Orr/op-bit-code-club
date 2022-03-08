@@ -85,6 +85,10 @@ Our applications often depend on external code. The code can be implemented in v
 
 **Submodules** do not track **Git** refs & branches. Also, **submodules** do not automatically update when a host **Git** repository is updated.
 
+**Resources:**
+- Ref - https://git-scm.com/book/en/v2/Git-Internals-Git-References
+- Branch - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
 When should I use **Git submodules**? When you need to maintain a strict version management of your external code's dependencies.
 
 Let us see this in action!
@@ -107,5 +111,9 @@ You will notice a `.gitmodules` file & `op-bit-workshops-external-code` director
 	path = bit-workshop-01/op-bit-workshops-external-code
 	url = https://github.com/Grayson-Orr/op-bit-workshops-external-code
 ```
+
+**Resources:** 
+- <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
+- <https://git-scm.com/docs/git-submodule>
 
 ### GitHub Campus Expert program
