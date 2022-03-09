@@ -11,7 +11,7 @@
 
 You have written many commit messages thus far in your **BIT** degree. However, based on my observations, you could format your messages more concisely, and it only takes a little bit of care. We will discuss a message convention (not a standard) heavily adopted in the industry.
 
-A message is broken down into four components - type, scope (optional), subject, extended description (optional) & footer (optional).
+A message is broken down into five components - type, scope (optional), subject, extended description (optional) & footer (optional).
 
 List of types:
 * build: build related change, i.e., installing application dependencies.
