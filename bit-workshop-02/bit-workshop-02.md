@@ -4,7 +4,7 @@
 ## Agenda
 
 - Git staging patches
-- Git rebase interactive mode
+- Git rewriting history
 
 ### Git staging patches
 
@@ -46,4 +46,20 @@ There are other options that are not in this list. For more information, refer t
 
 **Resource:** <https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging>
 
-### Git rebase interactive mode
+### Git rewriting history
+
+There are many commands that enable you to rewrite your **Git** history - `git commit --amend`, `git rebase` & `git reflog`. We will only discuss the first two mechanism. 
+
+We often make a mistakes when writing commit messages. The `git commit --amend` command enables you to either edit the staged commit's message or edit the previous commit's message. Also, it is easy to forget to stage a file. Again, you can use the same command to commit the files you wish to stage without changing the commit's message. For example:
+
+```bash
+# Edit index.html & main.js
+git add index.html
+git commit -m "some message" 
+# Whoops, I forgot to stage main.js
+git add main.js 
+git commit --amend --no-edit
+```
+
+**Note:** Do not amend an existing commit. 
+
