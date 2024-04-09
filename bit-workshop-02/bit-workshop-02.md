@@ -32,7 +32,7 @@ Stage this hunk [y,n,q,a,d,/,s,e,?]?
 
 Here is a list of options:
 
-- `y` - stage this unk
+- `y` - stage this hunk
 - `n` - do not stage this hunk
 - `q` - quit
 - `a` - stage this and all the remaining hunks in the file
